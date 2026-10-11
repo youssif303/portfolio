@@ -15,7 +15,7 @@ Update these items in `index.html`:
 - Email, LinkedIn, and GitHub links
 - Project descriptions, evidence, and technology tags to match your actual contributions
 
-The CARIAD case study uses a high-level generalized architecture and omits internal system names, hardware identifiers, screenshots, credentials, endpoint addresses, and operational settings. Confirm employer sharing rules before publishing.
+The CARIAD case study is presented as a high-level, generalized summary of my contributions. It omits internal system names, hardware identifiers, screenshots, credentials, endpoint addresses, and operational settings.
 
 ## Files
 
