@@ -42,9 +42,11 @@
           <div class="project-info">
             <div class="project-index">08 <span>PERSONAL PROJECT</span></div>
             <h3>FlightTest AI — PX4 Simulation Testing</h3>
-            <p>A simulation testing tool that runs repeatable PX4 missions in Gazebo, injects sensor and actuator faults, and checks recorded telemetry against configurable safety properties.</p>
-            <div class="chips"><span>Python</span><span>PX4 SITL</span><span>Gazebo</span><span>MAVSDK</span><span>Qt/QML</span><span>Automated testing</span></div>
+            <p>A simulation-only test platform for repeatable PX4 missions. It combines a Qt/QML desktop app, a Python/MAVSDK worker, configurable fault scenarios, telemetry logging, and automated checks of failsafe behavior.</p>
+            <div class="chips"><span>Python</span><span>PX4 SITL</span><span>Gazebo</span><span>MAVSDK</span><span>Qt/QML</span></div>
             <div class="project-links"><a href="https://github.com/youssif303/FlightTest-AI" target="_blank" rel="noreferrer">GitHub repository <span>↗</span></a></div>
+            <figure class="flighttest-demo"><video controls playsinline preload="metadata" aria-label="FlightTest AI PX4 simulation project demo"><source src="assets/flighttest-demo.mp4" type="video/mp4">Your browser does not support embedded video.</video><figcaption>FlightTest AI running a PX4 SITL fault-injection scenario in Gazebo</figcaption></figure>
+            <details class="flighttest-details"><summary>How it works &amp; skills applied</summary><div class="flighttest-detail-body"><h4>From scenario to reviewable result</h4><ol><li><strong>Configure:</strong> choose a JSON scenario with a mission route, takeoff altitude, fault type and timing, and the properties to check.</li><li><strong>Simulate:</strong> the desktop app queues the scenario for a Python/MAVSDK worker connected to PX4 SITL and Gazebo. The worker flies the mission, injects the configured fault, and records telemetry.</li><li><strong>Evaluate:</strong> an automated checker reads the flight log, checks configured safety limits and expected fault responses, and reports PASS or FAIL with telemetry plots for review.</li></ol><p class="flighttest-safety"><strong>Scope:</strong> PASS means the recorded simulation met its configured checks. It does not certify a real aircraft or prove overall flight safety.</p><h4>Skills applied</h4><div class="chips"><span>Python &amp; asyncio</span><span>PX4 SITL</span><span>Gazebo Sim</span><span>MAVSDK / MAVLink</span><span>Qt/QML</span><span>Fault injection</span><span>Telemetry analysis</span><span>Automated validation</span><span>JSON scenario design</span><span>Git / GitHub</span></div></div></details>
           </div>
         </article>
       </div>

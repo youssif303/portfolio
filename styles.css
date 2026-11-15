@@ -24,3 +24,17 @@
 .node-home{left:8px;bottom:4px}.node-east{left:72px;bottom:68px}.node-north{right:51px;top:8px}.node-fault{right:7px;top:54px;width:40px;height:40px;border-color:#d9a85f;color:#f0bb6f}.node-land{right:7px;bottom:0;border-color:#c7f36b}
 .route-segment{position:absolute;height:2px;background:linear-gradient(90deg,#5dc7c4,#c7f36b);transform-origin:left center;box-shadow:0 0 9px #62ded888}.segment-one{left:31px;bottom:22px;width:78px;transform:rotate(-45deg)}.segment-two{left:92px;bottom:83px;width:78px;transform:rotate(-46deg)}.segment-three{right:29px;top:28px;width:54px;transform:rotate(58deg);background:linear-gradient(90deg,#f1bd6b,#d98165)}.segment-four{right:21px;top:87px;width:39px;transform:rotate(94deg);background:linear-gradient(90deg,#d98165,#c7f36b)}
 .flight-status{position:absolute;top:14px;left:16px;right:16px;display:flex;justify-content:space-between;gap:8px;color:#b8c7c4;font:8px var(--mono);letter-spacing:.05em}.flight-status i{display:inline-block;width:6px;height:6px;margin-right:5px;border-radius:50%;background:#c7f36b;box-shadow:0 0 7px #c7f36b}.flight-status b{color:#f0bb6f;font-weight:400}.flight-caption{position:absolute;bottom:13px;right:15px;color:#81908d;font:8px var(--mono);letter-spacing:.08em}
+
+.flighttest-demo{margin:20px 0 0;border:1px solid var(--line);background:#080d12;padding:8px}
+.flighttest-demo video{display:block;width:100%;max-height:360px;aspect-ratio:1.9;object-fit:contain;background:#080d12}
+.flighttest-demo figcaption{padding:8px 4px 2px;color:var(--muted);font:9px/1.6 var(--mono)}
+.flighttest-details{margin-top:20px;border-top:1px solid #ffffff12;padding-top:13px}
+.flighttest-details summary{cursor:pointer;color:var(--lime);font:10px var(--mono);letter-spacing:.03em}
+.flighttest-detail-body{padding-top:12px}
+.flighttest-detail-body h4{margin:15px 0 8px;color:var(--text);font-size:13px}
+.flighttest-detail-body ol{padding-left:19px;margin:8px 0;color:#a5b1b2;font-size:10px;line-height:1.8}
+.flighttest-detail-body li{padding:4px 0}
+.flighttest-detail-body li strong{color:#dce5dd}
+.flighttest-detail-body .flighttest-safety{margin-top:12px;border-left:2px solid #d9a85f;padding:8px 0 8px 11px;color:#9da9a8;font-size:9px}
+.flighttest-detail-body .flighttest-safety strong{color:#f0bb6f}
+.flighttest-detail-body .chips{margin-top:10px}
